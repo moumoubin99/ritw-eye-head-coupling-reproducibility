@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
+  <ns0:defs>
+    <ns0:marker id="marker-solid-triangle-8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <ns0:path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke" />
+    </ns0:marker>
+    <ns0:marker id="arrow-end" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <ns0:path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke" />
+    </ns0:marker>
+    <ns0:marker id="arrow-start" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <ns0:path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke" />
+    </ns0:marker>
+  </ns0:defs>
+
+  <ns0:style>
+    :root {
+      --font-sans: "Inter", "Arial", "Helvetica", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      --font-serif: "Georgia", "Times New Roman", "Noto Serif CJK SC", serif;
+      --font-hand: "Comic Sans MS", "Comic Neue", "Arial Rounded MT Bold", "Microsoft YaHei", sans-serif;
+    }
+  </ns0:style>
+  <ns0:rect id="canvas-background" x="0" y="0" width="1800" height="1100" fill="#FFFFFF" />
+  <ns0:g id="connectors">
+    <ns0:line id="l-008" x1="240.0" y1="168" x2="240.0" y2="250" stroke="#0072B2" stroke-width="2.5" marker-end="url(#marker-solid-triangle-8)" />
+    <ns0:line id="l-012" x1="240.0" y1="209.0" x2="460" y2="209.0" stroke="#7F7F7F" stroke-width="1.8" marker-end="url(#marker-solid-triangle-8)" />
+    <ns0:line id="l-017" x1="240.0" y1="346" x2="240.0" y2="470" stroke="#0072B2" stroke-width="2.5" marker-end="url(#marker-solid-triangle-8)" />
+    <ns0:line id="l-022" x1="240.0" y1="408.0" x2="460" y2="408.0" stroke="#7F7F7F" stroke-width="1.8" marker-end="url(#marker-solid-triangle-8)" />
+    <ns0:line id="l-034" x1="1135.0" y1="168" x2="1135.0" y2="250" stroke="#D55E00" stroke-width="2.5" marker-end="url(#marker-solid-triangle-8)" />
+    <ns0:line id="l-038" x1="1135.0" y1="209.0" x2="1355" y2="209.0" stroke="#7F7F7F" stroke-width="1.8" marker-end="url(#marker-solid-triangle-8)" />
+    <ns0:line id="l-043" x1="1135.0" y1="346" x2="1135.0" y2="470" stroke="#D55E00" stroke-width="2.5" marker-end="url(#marker-solid-triangle-8)" />
+    <ns0:line id="l-048" x1="1135.0" y1="408.0" x2="1355" y2="408.0" stroke="#7F7F7F" stroke-width="1.8" marker-end="url(#marker-solid-triangle-8)" />
+    <ns0:path id="p-053" d="M 945 322 L 927 322 L 927 746 L 944 746" fill="none" stroke="#009E73" stroke-width="2.5" marker-end="url(#marker-solid-triangle-8)" />
+    <ns0:line id="l-060" x1="1325" y1="746" x2="1355" y2="746" stroke="#7F7F7F" stroke-width="1.8" marker-end="url(#marker-solid-triangle-8)" />
+  </ns0:g>
+  <ns0:g id="sections">
+    <ns0:rect id="r-002" x="50" y="72" width="380" height="96" rx="8" ry="8" fill="#FFFFFF" stroke="#0072B2" stroke-width="2.5" />
+    <ns0:rect id="r-005" x="50" y="250" width="380" height="96" rx="8" ry="8" fill="#FFFFFF" stroke="#0072B2" stroke-width="2.5" />
+    <ns0:rect id="r-009" x="460" y="171.0" width="430" height="82" rx="6" ry="6" fill="#F2F2F2" stroke="#7F7F7F" stroke-width="1.5" />
+    <ns0:rect id="r-013" x="50" y="470" width="380" height="126" rx="8" ry="8" fill="#FFFFFF" stroke="#0072B2" stroke-width="2.5" />
+    <ns0:rect id="r-018" x="460" y="370.0" width="430" height="111" rx="6" ry="6" fill="#F2F2F2" stroke="#7F7F7F" stroke-width="1.5" />
+    <ns0:rect id="r-023" x="40" y="700" width="410" height="122" rx="8" ry="8" fill="#FFFFFF" stroke="#7F7F7F" stroke-width="2.5" stroke-dasharray="8 6" />
+    <ns0:rect id="r-028" x="945" y="72" width="380" height="96" rx="8" ry="8" fill="#FFFFFF" stroke="#D55E00" stroke-width="2.5" />
+    <ns0:rect id="r-031" x="945" y="250" width="380" height="96" rx="8" ry="8" fill="#FFFFFF" stroke="#D55E00" stroke-width="2.5" />
+    <ns0:rect id="r-035" x="1355" y="171.0" width="430" height="82" rx="6" ry="6" fill="#F2F2F2" stroke="#7F7F7F" stroke-width="1.5" />
+    <ns0:rect id="r-039" x="945" y="470" width="380" height="126" rx="8" ry="8" fill="#FFFFFF" stroke="#D55E00" stroke-width="2.5" />
+    <ns0:rect id="r-044" x="1355" y="370.0" width="430" height="111" rx="6" ry="6" fill="#F2F2F2" stroke="#7F7F7F" stroke-width="1.5" />
+    <ns0:rect id="r-049" x="945" y="700" width="380" height="126" rx="8" ry="8" fill="#FFFFFF" stroke="#009E73" stroke-width="2.5" />
+    <ns0:rect id="r-055" x="1355" y="708" width="430" height="140" rx="6" ry="6" fill="#F2F2F2" stroke="#7F7F7F" stroke-width="1.5" />
+    <ns0:rect id="r-062" x="400.0" y="945" width="1000" height="126" rx="8" ry="8" fill="#FFFFFF" stroke="#111111" stroke-width="2.5" />
+  </ns0:g>
+  <ns0:g id="texts">
+    <ns0:text id="t-001" x="30" y="44" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="28" font-weight="700" fill="#0072B2" text-anchor="start"><ns0:tspan x="30" dy="0">Task 11: walking, not reading</ns0:tspan></ns0:text>
+    <ns0:text id="t-003" x="76.0" y="114.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="76.0" dy="0">RitW Seattle, annotated window</ns0:tspan></ns0:text>
+    <ns0:text id="t-004" x="93.5" y="148.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="93.5" dy="0">163 recordings / 65 clusters</ns0:tspan></ns0:text>
+    <ns0:text id="t-006" x="84.0" y="292.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="84.0" dy="0">Usable walking ≥ 30 s (gate 1)</ns0:tspan></ns0:text>
+    <ns0:text id="t-007" x="100.0" y="326.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="100.0" dy="0">43 recordings / 32 clusters</ns0:tspan></ns0:text>
+    <ns0:text id="t-010" x="474" y="205.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="474" dy="0">Excluded</ns0:tspan></ns0:text>
+    <ns0:text id="t-011" x="474" y="234.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="474" dy="0">120 rec (64 cl): &lt; 30 s usable walking</ns0:tspan></ns0:text>
+    <ns0:text id="t-014" x="131.0" y="512.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="131.0" dy="0">M3 estimator-eligible</ns0:tspan></ns0:text>
+    <ns0:text id="t-015" x="165.0" y="543.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="165.0" dy="0">(gait-band fit ok)</ns0:tspan></ns0:text>
+    <ns0:text id="t-016" x="100.0" y="576.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="100.0" dy="0">25 recordings / 22 clusters</ns0:tspan></ns0:text>
+    <ns0:text id="t-019" x="474" y="404.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="474" dy="0">Not estimable (M3)</ns0:tspan></ns0:text>
+    <ns0:text id="t-020" x="474" y="433.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="474" dy="0">15 rec (13 cl): &lt; 30 s slow-phase support</ns0:tspan></ns0:text>
+    <ns0:text id="t-021" x="474" y="462.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="474" dy="0">3 rec (3 cl): no valid fit</ns0:tspan></ns0:text>
+    <ns0:text id="t-024" x="156.0" y="742.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="156.0" dy="0">M3-T not applied</ns0:tspan></ns0:text>
+    <ns0:text id="t-025" x="58.5" y="773.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="58.5" dy="0">43 gate-1 rec: median hand coverage 0.07</ns0:tspan></ns0:text>
+    <ns0:text id="t-026" x="65.0" y="803.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="65.0" dy="0">(2/43 ≥ 0.5, 1 valid fit; descriptive only)</ns0:tspan></ns0:text>
+    <ns0:text id="t-027" x="925" y="44" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="28" font-weight="700" fill="#D55E00" text-anchor="start"><ns0:tspan x="925" dy="0">Task 12: walking while reading</ns0:tspan></ns0:text>
+    <ns0:text id="t-029" x="971.0" y="114.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="971.0" dy="0">RitW Seattle, annotated window</ns0:tspan></ns0:text>
+    <ns0:text id="t-030" x="995.0" y="148.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="995.0" dy="0">40 recordings / 33 clusters</ns0:tspan></ns0:text>
+    <ns0:text id="t-032" x="979.0" y="292.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="979.0" dy="0">Usable walking ≥ 30 s (gate 1)</ns0:tspan></ns0:text>
+    <ns0:text id="t-033" x="995.0" y="326.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="995.0" dy="0">20 recordings / 19 clusters</ns0:tspan></ns0:text>
+    <ns0:text id="t-036" x="1369" y="205.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="1369" dy="0">Excluded</ns0:tspan></ns0:text>
+    <ns0:text id="t-037" x="1369" y="234.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="1369" dy="0">20 rec (18 cl): &lt; 30 s usable walking</ns0:tspan></ns0:text>
+    <ns0:text id="t-040" x="1026.0" y="512.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="1026.0" dy="0">M3 estimator-eligible</ns0:tspan></ns0:text>
+    <ns0:text id="t-041" x="1060.0" y="543.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="1060.0" dy="0">(gait-band fit ok)</ns0:tspan></ns0:text>
+    <ns0:text id="t-042" x="995.0" y="576.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="995.0" dy="0">16 recordings / 15 clusters</ns0:tspan></ns0:text>
+    <ns0:text id="t-045" x="1369" y="404.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="1369" dy="0">Not estimable (M3)</ns0:tspan></ns0:text>
+    <ns0:text id="t-046" x="1369" y="433.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="1369" dy="0">3 rec (3 cl): &lt; 30 s slow-phase support</ns0:tspan></ns0:text>
+    <ns0:text id="t-047" x="1369" y="462.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="1369" dy="0">1 rec (1 cl): no valid fit</ns0:tspan></ns0:text>
+    <ns0:text id="t-050" x="999.0" y="742.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="999.0" dy="0">M3-T joint fit valid (H-T1)</ns0:tspan></ns0:text>
+    <ns0:text id="t-051" x="995.0" y="776.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="995.0" dy="0">14 recordings / 13 clusters</ns0:tspan></ns0:text>
+    <ns0:text id="t-052" x="1001.5" y="807.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="1001.5" dy="0">a subset of the 16 M3-eligible</ns0:tspan></ns0:text>
+    <ns0:text id="t-054" x="949" y="638" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#009E73" text-anchor="start"><ns0:tspan x="949" dy="0">M3-T reads all 20 gate-1 recordings</ns0:tspan></ns0:text>
+    <ns0:text id="t-056" x="1369" y="742.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="1369" dy="0">Not estimable (M3-T)</ns0:tspan></ns0:text>
+    <ns0:text id="t-057" x="1369" y="771.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="1369" dy="0">4 rec (4 cl): &lt; 30 s joint slow-phase support</ns0:tspan></ns0:text>
+    <ns0:text id="t-058" x="1369" y="800.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="1369" dy="0">1 rec (1 cl): fit not converged</ns0:tspan></ns0:text>
+    <ns0:text id="t-059" x="1369" y="829.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="1369" dy="0">1 rec (1 cl): no valid fit</ns0:tspan></ns0:text>
+    <ns0:text id="t-061" x="945" y="862" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="945" dy="0">Primary hand of the 14: right 10, left 4</ns0:tspan></ns0:text>
+    <ns0:text id="t-063" x="646.0" y="987.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="700" fill="#111111" text-anchor="start"><ns0:tspan x="646.0" dy="0">M3 analysis set: the two M3-eligible sets pooled</ns0:tspan></ns0:text>
+    <ns0:text id="t-064" x="593.5" y="1021.5" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="25" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="593.5" dy="0">25 + 16 = 41 recordings, 30 clusters, 7 clusters in both tasks</ns0:tspan></ns0:text>
+    <ns0:text id="t-065" x="516.0" y="1052.4" font-family="STIXGeneral, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="400" fill="#111111" text-anchor="start"><ns0:tspan x="516.0" dy="0">fewer than 10 paired clusters, both tasks ≥ 10 clusters → registered all-clusters design</ns0:tspan></ns0:text>
+  </ns0:g>
+</ns0:svg>

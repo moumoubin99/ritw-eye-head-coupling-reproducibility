@@ -1,0 +1,114 @@
+{
+  "schema": "anonymous-scientific-export-v1",
+  "json_exports": [
+    {
+      "path": "results/m3_stats.json",
+      "numeric_leaf_count": 519,
+      "numeric_sha256": "3830ca4663eecc3333daf6bab6fad91d8733a0996ed11c25b91698f14281a243"
+    },
+    {
+      "path": "results/m3_synthetic.json",
+      "numeric_leaf_count": 3534,
+      "numeric_sha256": "e5589f52ff8e8efbf3df1cf1a7c4bba48593331fb53032b21ea090223cd8d155"
+    },
+    {
+      "path": "results/m3t/hand_coverage_summary.json",
+      "numeric_leaf_count": 74,
+      "numeric_sha256": "99646640d4fa4f075f9627a7c03df39c67b0075421e5016adc08443b72c8f345"
+    },
+    {
+      "path": "results/m3t/m3t_mask_calibration_summary.json",
+      "numeric_leaf_count": 21,
+      "numeric_sha256": "7aa721529ccdcff6ad2f45b5644b389e7682763bbc7ca6353fad1f96e8a2742c"
+    },
+    {
+      "path": "results/m3t/m3t_stats.json",
+      "numeric_leaf_count": 254,
+      "numeric_sha256": "5cd1d6708d2667c1bba8a0d691daad358267eb509f356bd199dcc7aa544ff9b8"
+    },
+    {
+      "path": "results/m3t/m3t_synthetic.json",
+      "numeric_leaf_count": 1404,
+      "numeric_sha256": "72f11e66df8f97b5a2c775b4f8857953757ad483aab9439bf989d6a3e187acaf"
+    },
+    {
+      "path": "results/m3t/m3t_synthetic_summary.json",
+      "numeric_leaf_count": 625,
+      "numeric_sha256": "e6723b5fda59485f25f8bd6ecb0d44c3ec1f6a279cf8ca6256ea8447cfbdf20c"
+    },
+    {
+      "path": "results/posthoc/m3t_decomposition_checks.json",
+      "numeric_leaf_count": 115,
+      "numeric_sha256": "34d108159103cbebc2427b191d64b60166f30ef92cf9d88b579327e694839e98"
+    },
+    {
+      "path": "results/v1_summary.json",
+      "numeric_leaf_count": 39,
+      "numeric_sha256": "6ae02f21a0ba074ea00478f883eba7154cdc856d1b655a70bfbf018483022c58"
+    },
+    {
+      "path": "results/v1_rotation_recovery.json",
+      "numeric_leaf_count": 15,
+      "numeric_sha256": "bfd3551a1e1bf22380fb67bdab4e93bc8398a4ef65d84f595f9e9162edeea80c"
+    },
+    {
+      "path": "results/check_frames.json",
+      "numeric_leaf_count": 34,
+      "numeric_sha256": "7edd99511fb94c8c992e37a5d07042a5a6bb48dc841716ce54114051a13eb5c1"
+    }
+  ],
+  "synthetic_csv_exports": [
+    {
+      "path": "results/v1_grid.csv",
+      "columns": [
+        "kind",
+        "kappa_true",
+        "P_target",
+        "P_meas",
+        "d",
+        "seed",
+        "sigma",
+        "W",
+        "mis",
+        "kappa_hat",
+        "bias",
+        "rmse",
+        "bias_median",
+        "kappa_hat_base"
+      ],
+      "rows": 7200
+    },
+    {
+      "path": "results/v1_acceptable_cells.csv",
+      "columns": [
+        "P_target",
+        "d",
+        "sigma",
+        "W",
+        "max_abs_bias",
+        "max_sd",
+        "max_rmse",
+        "P_meas",
+        "acceptable"
+      ],
+      "rows": 216
+    },
+    {
+      "path": "results/v1_rotation_recovery.csv",
+      "columns": [
+        "mis_deg",
+        "d",
+        "sigma",
+        "kappa",
+        "seed",
+        "resolved",
+        "angle_est",
+        "angle_err",
+        "rot_err_deg",
+        "gain"
+      ],
+      "rows": 240
+    }
+  ],
+  "scope": "aggregate and synthetic outputs; no raw participant signals or real source identifiers"
+}
